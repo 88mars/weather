@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    border: 25px solid #2b81ac;
+    background-color: #3399cc;
+    color: white;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    
+}
+
+.cont {
+    width: 50%;
+    margin: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 0;
+    border: 3px solid #fff;
+    
+}
+
+li {
+    display: inline-block;
+    padding: 21px;
+    font-size: 24px;
+    height: 150px;
+   
+}
+
+
+#first {
+    width: 50%;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    
+    
+    
+}
+
+#second {
+    width: 25%;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    background-color: #33cccc;
+    
+    
+}
+
+#third {
+    width: 25%;
+    border-bottom: 3px solid #fff;
+    background-color: #996699;
+    
+    
+    
+}
+
+#fourth {
+    width: 25%;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    background-color: #c24747;
+
+    
+    
+    
+}
+
+#fifth {
+    width: 25%;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    background-color: #e2674a;
+
+    
+    
+    
+}
+
+#sixth {
+    width: 25%;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    background-color: #ffcc66;
+    
+}
+
+#seventh {
+    width: 25%;
+    border-bottom: 3px solid #fff;
+    background-color: #99cc99;
+    
+}
+
+#eighth {
+    width: 25%;
+    background-color: #669999;
+}
+
+#ninth {
+    width: 50%;
+    border-right: 3px solid #fff;
+    border-left: 3px solid #fff;
+    background-color: #cc6699;
+    
+}
+
+#tenth {
+    width: 25%;
+    background-color: #339966;
+    
+}
+
+#eleventh {
+    width: 100%;
+    border-top: 3px solid #fff;
+    background-color: #666699;
+    
+}
+
+ul:hover li:not(:hover){
+    opacity: 0.5;
+    transition: all .4s ease-in-out;
+}
